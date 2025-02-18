@@ -45,4 +45,15 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+
+    implementation("com.google.apis:google-api-services-youtube:v3-rev20250128-2.0.0")
+
+    // Google API client (for Android support)
+    implementation("com.google.api-client:google-api-client-android:1.35.0")
+
+    // Google HTTP Client (for transport layer)
+    implementation("com.google.http-client:google-http-client-android:1.41.0")
+
+
 }
